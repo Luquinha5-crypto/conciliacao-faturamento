@@ -1,0 +1,10 @@
+# Ambientes virtuais e cache do Jupyter
+venv/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Dados reais e arquivos sensíveis (NUNCA versionar)
+placas.txt
+dados_reais/
+saida/
