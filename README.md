@@ -39,7 +39,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows  (Mac/Linux: source .venv/bin/activate)
 python -m pip install -r requirements.txt
 python -m notebook
-Testado com Python 3.13
+Testado com **Python 3.13**. Versões muito recentes (como 3.14) podem falhar ao instalar o Jupyter no Windows por falta de pacotes pré-compilados.
 py -3.13 -m venv venv
 venv\Scripts\activate
 python -m pip install --upgrade pip
